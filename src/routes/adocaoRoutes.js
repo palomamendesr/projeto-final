@@ -14,9 +14,9 @@ router.post("/login", autenticacaoController.login)
 router.get("/", controller.todosCachorros)
 
 router.post("/criar", checkAuth, controller.adicionarCachorro)
-router.patch("/atualizar/:id", checkAuth, controller.atualizarResponsavel)
-router.get("/buscar/:id", controller.cachorroPorId)
-router.delete("/deletar/:id", checkAuth, controller.deletarCachorro)
+router.patch("/:id", checkAuth, controller.atualizarResponsavel)
+router.get("/:id", controller.cachorroPorId)
+router.delete("/:id", checkAuth, controller.deletarCachorro)
 
 
 module.exports = router
