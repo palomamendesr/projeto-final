@@ -70,7 +70,7 @@ const deletarCachorro = async (req, res) => {
         }
 
         res.status(200).json({
-            mensagem: "Cachorro deletado com sucesso!"
+            mensagem: "Cachorro deletado com sucesso!", cachorroEncontrado
         })
 
     } catch (error) {

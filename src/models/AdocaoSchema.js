@@ -31,5 +31,5 @@ const AdocaoSchema = new mongoose.Schema({
         required: true
     },
 }, { timestamps: true })
- 
-module.exports = mongoose.model("cachorros", AdocaoSchema, "imagem", imagemSchema);
+
+module.exports = mongoose.model("cachorros", AdocaoSchema);
