@@ -37,7 +37,7 @@ Metodo | Rotas | Recurso | Autenticação
 ------------ | -------- | ------------- | --------------
  GET  | '/usuarios' | Retorna todos os usuários cadastrados. | Sim
  POST| '/novo' | Cria um novo usuário. | Não
- POST| 'login' | Realiza o login do usuário | Não
+ POST| '/login' | Realiza o login do usuário | Não
  GET | '/' | Retorna todos os pets cadastrados | Não
  POST | '/criar' | Cria uma novo cachorro | Sim
  PATCH | '/{id}' | Atualiza os dados do responsável(telefone e nome) | Sim
